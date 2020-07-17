@@ -2,7 +2,7 @@ Cas == 1
 if (Fièvre) {
   if (Toux || TroubleOdoratGout ||  Courbatures) {
     Cas == 2
-  } else if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || (MaladieRespiratoire == "Oui") || (Enceinte == "Oui") || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
+  } else if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || MaladieRespiratoire == "Oui" || Enceinte == "Oui" || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
     if (Dyspnée || Anorexie){
       Cas == 3.2
     } else {
@@ -13,7 +13,7 @@ if (Fièvre) {
   }
 } else if (Toux) {
   if (TroubleOdoratGout || Courbatures) {
-    if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || (MaladieRespiratoire == "Oui") || (Enceinte == "Oui") || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
+    if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || MaladieRespiratoire == "Oui" || Enceinte == "Oui" || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
       if (Dyspnée || Anorexie){
         Cas == 3.2
       } else {
@@ -24,7 +24,7 @@ if (Fièvre) {
     }
   }
 } else if (Diarhée) {
-  if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || (MaladieRespiratoire == "Oui") || (Enceinte == "Oui") || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
+  if (HypertensionMaladiecardiaqueTraitementcoeur == "Oui" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || HypertensionMaladiecardiaqueTraitementcoeur == "Ne sait pas" || Diabétique || Cancer || MaladieRespiratoire == "Oui" || Enceinte == "Oui" || Age > 69 || IMC ≥ 30 || IMC == "Ne sait pas") {
     if (Dyspnée || Anorexie){
       Cas == 3.2
     } else {
